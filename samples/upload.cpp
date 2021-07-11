@@ -47,6 +47,7 @@ static const char *AVAILABLE_PROPERTIES[] = {
     PROPERTY_PREFIX "RETENTION_PERIOD", "Length of time stream is preserved. Unit: hours",
     PROPERTY_PREFIX "STORAGE_SIZE", "Storage Size. Unit: MB",
     PROPERTY_PREFIX "FRAGMENT_DURATION", "Duration of fragments. Unit: milliseconds",
+    PROPERTY_PREFIX "KEY_FRAME_FRAGMENTATION", "Whether to produce fragments on a key frame. Unit: Boolean (0/1)",
     NULL};
 
 typedef struct _CustomData
