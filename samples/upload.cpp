@@ -46,6 +46,7 @@ static const char *AVAILABLE_PROPERTIES[] = {
     PROPERTY_PREFIX "IOT_CERTIFICATE", "Use aws iot certificate to obtain credentials",
     PROPERTY_PREFIX "RETENTION_PERIOD", "Length of time stream is preserved. Unit: hours",
     PROPERTY_PREFIX "STORAGE_SIZE", "Storage Size. Unit: MB",
+    PROPERTY_PREFIX "FRAGMENT_DURATION", "Duration of fragments. Unit: milliseconds",
     NULL};
 
 typedef struct _CustomData
