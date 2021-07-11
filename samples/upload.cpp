@@ -30,7 +30,7 @@ extern "C"
 #define CONTENT_TYPE_VIDEO_ONLY 0
 #define CONTENT_TYPE_AUDIO_VIDEO 1
 
-#define APP_NAME "kvs_gstreamer_file_uploader_sample" SI
+#define APP_NAME "upload" SI
 #define LOG_INFO(fmt, ...)                                                \
     do                                                                    \
     {                                                                     \
